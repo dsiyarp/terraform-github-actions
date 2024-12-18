@@ -19,7 +19,7 @@ provider "aws" {
 }
 
 resource "aws_instance" "app_server" {
-  ami           = "ami-07dfed28fcf95241c"  # Amazon Linux 2 AMI en us-west-2
+  ami           = "ami-07dfed28fcf95241c"
   instance_type = "t2.micro"
 
   tags = {
